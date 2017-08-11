@@ -9,4 +9,4 @@ Enrique Gómez
 
 ## License
 
-Licensed under [Creative Commons Atribution-ShareALike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+Licensed under [Creative Commons Attribution-ShareALike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
