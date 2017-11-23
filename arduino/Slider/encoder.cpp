@@ -30,7 +30,7 @@ void Encoder::clockWise(){
         case 0:
           //If we are changing the number value
           if(screen_->getSubEntered() == true){
-            if(motor_->getTarget() < 240)
+            if(motor_->getTarget() < motor_->getlength())
               motor_->setTarget(motor_->getTarget() + 10);
             else
               motor_->setTarget(0);
@@ -84,7 +84,7 @@ void Encoder::counterClockWise(){
             if(motor_->getTarget() > 0)
               motor_->setTarget(motor_->getTarget() - 10);
             else
-              motor_->setTarget(240);
+              motor_->setTarget(motor_->getlength());
           }
           //Draw byPositon submenu
           screen_->byPosition(motor_->getTarget());

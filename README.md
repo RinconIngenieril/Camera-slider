@@ -10,3 +10,7 @@ Enrique Gómez
 ## License
 
 Licensed under [Creative Commons Attribution-ShareALike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+
+## Acknowledges
+
+Santiago Gonzalez found a mistake in the code. 23-11-2017

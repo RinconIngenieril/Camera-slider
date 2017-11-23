@@ -19,6 +19,7 @@ class Motor{
     void setFinished(bool finished);
     bool getLoop();
     void setLoop(bool loop);
+    int getlength();
   private:
     int stepPin_;
     int dirPin_;

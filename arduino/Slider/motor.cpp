@@ -177,3 +177,8 @@ void Motor::setLoop(bool loop){
   this->setTime(time_, 240);
   loop_ = loop;  
 }
+
+int Motor::getlength(){
+  return length_;
+}
+
